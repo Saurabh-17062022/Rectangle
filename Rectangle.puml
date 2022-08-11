@@ -1,0 +1,9 @@
+@startuml
+class Rectangle {
+~ double width
+~ double height
++ <<Create>> Rectangle(double,double)
+~ double getArea(double,double)
+~ double getPerimeter(double,double)
+}
+@enduml
